@@ -12,6 +12,80 @@ The Airbnb Clone Project simulates building a full-featured booking platform sim
 
 ---
 
+## UI/UX Design Planning
+
+### Design Goals
+- Ensure the platform is user-friendly and intuitive for both hosts and guests.
+- Emphasize clarity and simplicity in booking workflows.
+- Use consistent styles and spacing to improve usability and aesthetics.
+- Implement responsive design for all screens (mobile, tablet, desktop).
+
+### Primary Pages
+
+| Page | Description |
+|------|-------------|
+| **Property Listing View** | Displays a list of available properties with thumbnail images, price per night, and brief descriptions. |
+| **Listing Detailed View** | Provides detailed information about a selected property including photos, host details, amenities, reviews, and location map. |
+| **Simple Checkout View** | Summarizes the booking, collects payment details, and finalizes the transaction securely. |
+
+### Importance of User-Friendly Design
+- Enhances user satisfaction and trust.
+- Reduces drop-off rates during booking.
+- Supports accessibility for all users.
+- Encourages repeat usage and recommendations.
+
+### Design Properties from Figma
+
+- **Color Styles**:
+  - Primary: `#FF5A5F` (Airbnb Red)
+  - Secondary: `#484848` (Dark Grey)
+  - Background: `#F7F7F7`
+  - Accent: `#00A699`
+
+- **Typography**:
+  - Font Family: `Circular Std`, `sans-serif`
+  - Font Weights: Light (300), Regular (400), Medium (500), Bold (700)
+  - Font Sizes:
+    - Heading: 24px – 32px
+    - Body: 16px
+    - Caption: 12px
+
+### Importance of Identifying Design Properties
+- Ensures consistent branding and layout.
+- Accelerates the development process by providing a design blueprint.
+- Improves communication between designers and developers.
+
+---
+
+## Project Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Oversees project timeline, task assignments, and team coordination. |
+| **Frontend Developers** | Implement UI components, ensure responsive design, and integrate with backend APIs. |
+| **Backend Developers** | Build REST/GraphQL APIs, implement business logic, and manage data flow. |
+| **Designers** | Create user flows, mockups, and prototypes in Figma; maintain design system. |
+| **QA/Testers** | Write and run test cases, identify bugs, and ensure quality of releases. |
+| **DevOps Engineers** | Configure servers, automate deployments, and maintain CI/CD pipelines. |
+| **Product Owner** | Defines product features, prioritizes backlog, and communicates with stakeholders. |
+| **Scrum Master** | Facilitates Agile ceremonies, removes blockers, and helps the team follow Scrum practices. |
+
+---
+
+## UI Component Patterns
+
+We plan to build reusable and scalable components across the project. The main UI components include:
+
+- **Navbar**: Sticky navigation bar with links to home, properties, login/logout.
+- **Property Card**: Shows property thumbnail, title, price, and rating in grid layout.
+- **Footer**: Displays company info, links, and legal disclaimers at the bottom.
+- **Search Bar**: Allows users to filter properties based on location, date, and guests.
+- **Booking Form**: Captures booking details including dates and guest information.
+- **Review Modal**: Popup form for users to leave a rating and comment after a stay.
+- **Login/Register Forms**: Secure forms for user authentication and registration.
+
+---
+
 ## Team Roles
 
 | Role | Description |
@@ -93,5 +167,3 @@ CI/CD stands for Continuous Integration and Continuous Deployment. It automates 
 - Ensures rapid feedback and consistent updates.
 
 ---
-
-
